@@ -1,0 +1,15 @@
+a : {
+    b : {
+        c : {
+           c1 : "blala",
+           c2: "blublu",
+        }
+          
+    }
+}
+
+
+const { c1, c2  }= a.b.c
+// "blabla"
+// "blublu"
+
